@@ -11,9 +11,7 @@ use OpenTelemetry\Context\Propagation\PropagationSetterInterface;
 use Override;
 
 /**
- * Provides a TextMapPropagator implementation for service.name
- *
- * @see https://opentelemetry.io/docs/specs/semconv/resource/#service
+ * Provides a ResponsePropagator implementation for Response Baggage.
  */
 final class ResponseBaggagePropagator implements ResponsePropagator
 {
